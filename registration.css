@@ -1,11 +1,9 @@
-.background{
+body {
 	background: url(img/Chennai.jpg) no-repeat center center fixed;
 	background-size: cover;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
-}
-body {
 	font-size:20px;
 	background-color: #B39DDB;
 }
