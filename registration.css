@@ -1,14 +1,9 @@
 .background{
-	background-image: url(img/Chennai.jpg);
-	background-repeat: no-repeat;
+	background: url(img/chennai.jpg) no-repeat center center fixed;
 	background-size: cover;
-	background-position: center center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
-	position:absolute;
-	width:100%;
-	height:100%;
 }
 body {
 	font-size:20px;
