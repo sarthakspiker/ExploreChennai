@@ -1,0 +1,42 @@
+body {
+	margin:0px;
+	height:100%;
+	background: url(img/) no-repeat center center fixed;
+	background-size: cover;
+	font-size:20px;
+	color:white;
+	background-color: #2d2d2d;
+}
+.resulist{
+    background-image: url(img/square1.png);
+    background-size: cover;
+    font-family: kanit;
+	background-color:#515151;
+	padding:40px;
+    margin: 40px;
+	padding-left:120px;
+    font-size:22px;
+    color: white;
+}
+.nav {
+	border:1px solid black;
+	color:black;
+	font-size:18px;
+	background:#111;
+	padding:10px;
+	text-align:center;
+	text-decoration: none;
+}
+.nav a{
+    color:white;
+	padding:7px;
+	text-decoration: none;
+}
+.nav a:link{
+	text-decoration: none;
+}
+.nav a:hover{
+	text-decoration: none;
+	background: black;
+    color: #0084FF;
+}
