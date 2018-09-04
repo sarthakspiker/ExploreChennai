@@ -10,10 +10,12 @@ body {
 .resulist{
     background-image: url(img/square1.png);
     background-size: cover;
+	float:left;
     font-family: kanit;
 	background-color:#515151;
 	padding:40px;
     margin: 40px;
+	width: 50%;
 	padding-left:120px;
     font-size:22px;
     color: white;
