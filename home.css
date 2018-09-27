@@ -13,8 +13,8 @@ body {
 	float:left;
     font-family: kanit;
 	background-color:#515151;
-	padding:40px;
-    margin: 40px;
+	padding:30px;
+    margin: 20px;
 	padding-left:100px;
 	width: 40%;
     font-size:22px;
@@ -48,6 +48,7 @@ img {vertical-align: middle;}
 /* Slideshow container */
 .slideshow-container {
   width: 40%;
+height:250px;
   float:right;
 margin: 10px;
 }
