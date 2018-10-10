@@ -1,0 +1,100 @@
+body {
+	margin:0px;
+	height:100%;
+	background: url(img/) no-repeat center center fixed;
+	background-size: cover;
+	font-size:20px;
+	color:white;
+	background-color: #2d2d2d;
+}
+.resulist{
+    background-image: url(img/square1.png);
+    background-size: cover;
+	float:left;
+    font-family: kanit;
+	background-color:#515151;
+	padding:20px;
+    margin: 20px;
+	padding-left:100px;
+	width: 40%;
+    font-size:22px;
+    color: white;
+}
+.para{
+    background-image: url(img/square1.png);
+    background-size: cover;
+    font-family: kanit;
+	background-color:#515151;
+	padding:40px;
+    margin: 60px;
+    font-size:22px;
+    color: white;
+}
+.nav {
+	border:1px solid black;
+	color:black;
+	font-size:18px;
+	background:#111;
+	padding:10px;
+	text-align:center;
+	text-decoration: none;
+}
+.nav a{
+    color:white;
+	padding:7px;
+	text-decoration: none;
+}
+.nav a:link{
+	text-decoration: none;
+}
+.nav a:hover{
+	text-decoration: none;
+	background: black;
+    color: #0084FF;
+}
+.mySlides {display: none;}
+img {vertical-align: middle;height:350px;width:600px;}
+
+/* Slideshow container */
+.slideshow-container {
+	width:45%;
+  float:right;
+margin: 10px;
+}
+
+/* Caption text */
+.captiontext {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 400px) {
+  .captiontext {font-size: 11px}
+}

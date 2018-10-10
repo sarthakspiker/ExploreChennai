@@ -1,0 +1,52 @@
+body {
+	margin:0px;
+	height:100%;
+	background: url(img/chennai.jpg) no-repeat center center fixed;
+	background-size: cover;
+	font-size:20px;
+	background-color: #B39DDB;
+}
+h1 {
+	margin-left:60px;
+	color:white;
+}
+select{
+	width:100%;
+	padding:5px;
+	background-color:white;
+}
+input {
+    width: 100%;
+	padding:5px;
+} 
+.form{
+	background:rgba(45, 45, 45,0.8);
+	color:white;
+	text-decoration: none;
+	padding:30px;
+	text-align:left;
+	font-size:20px;
+	float:right;
+	margin-right:80px;
+	border:1px solid white;
+	border-radius: 0px;
+}
+.header{
+	background:rgba(45, 45, 45,0.8);
+	position:absolute;
+	top:0px;
+	color:white;
+	text-size:24px;
+	height:80px;
+	width:100%;
+}
+button{
+	background-color:#7E57C2;
+	width:140px;
+	border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}

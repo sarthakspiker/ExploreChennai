@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Home</title>
+<link rel="stylesheet" type="text/css" href="home.css" />
+</head>
+<body>
+<p class="nav" >
+<a href="home.html">Home</a>
+:: <a href="about.html">About</a>
+:: <a href="https://github.com/sarthakspiker" target="_blank">Github</a>
+:: <a href="index.html">Sign out</a>
+</p>
+ <p class="para">
+ Chennai is the capital city of Tamilnadu State.
+ It is one of the metropolis of India and serves as the gateway of  the  culture  of South India.
+ In spite of being the  capital  of  a  Tamil speaking  State,
+ it has emerged as a cosmopolitan city playing  an  important role  in  the  historical,
+ cultural and  intellectual  development  of  India, representing  still the distinct components of the highest form  of  Dravidian civilisation.
+ In addition, it holds out an interesting fair of  
+ South Indian architecture, music, dance, drama, sculpture and other arts and crafts.
+ </p>
+ </br>
+ <ul class="resulist">
+	<h2> Places to go : </h2>
+	<li><a href="" style="color:white;text-decoration:none;">Marina Beach</a></li>
+	<li><a href="" style="color:white;text-decoration:none;">Covelong Beach</a></li>
+	<li><a href="" style="color:white;text-decoration:none;">Elliots Beach</a></li>
+	<li><a href="" style="color:white;text-decoration:none;">Arignar Anna Zoological Park</a></li>
+	<li><a href="" style="color:white;text-decoration:none;">MGM Dizzee World</a></li>
+	<li><a href="" style="color:white;text-decoration:none;">Mahabalipuram</a></li>
+	<li><a href="" style="color:white;text-decoration:none;">Pulicat Lake & Bird Sanctuary</a></li>
+
+</ul>
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <img src="img/chennai.jpg" >
+  <div class="captiontext">Chennai</div>
+</div>
+
+<div class="mySlides fade">
+  <img src="img/elliot.jpg" >
+  <div class="captiontext">Elliots Beach</div>
+</div>
+
+<div class="mySlides fade">
+  <img src="img/covelong.jpg" >
+  <div class="captiontext">Covelong Beach</div>
+</div>
+
+<div class="mySlides fade">
+  <img src="img/marina.jpg" >
+  <div class="captiontext">Mrina Beach</div>
+</div>
+
+<div class="mySlides fade">
+  <img src="img/mahabalipuram.jpg" >
+  <div class="captiontext">Mahabalipuram</div>
+</div>
+
+<div class="mySlides fade">
+  <img src="img/mgm.jpg" >
+  <div class="captiontext">MGM Dizzee World</div>
+</div>
+
+<div class="mySlides fade">
+  <img src="img/pulikat.jpg" >
+  <div class="captiontext">Pulikat Lake</div>
+</div>
+
+<div class="mySlides fade">
+  <img src="img/vandaloorzoo.JPG" >
+  <div class="captiontext">Arignar Anna Zoological Park</div>
+</div>
+	
+</div>
+<br>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}    
+    slides[slideIndex-1].style.display = "block";  
+    setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+</body>
+</html>
